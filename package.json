@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-project",
+  "version": "1.0.0",
+  "description": "Start coding your project without wasting time on configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "vanilla",
+    "js",
+    "kickstarter",
+    "webpack"
+  ],
+  "author": "Chajia Omar",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
