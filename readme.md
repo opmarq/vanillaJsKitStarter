@@ -11,3 +11,4 @@ Start building your vanilla js project without wasting time on configurations.
 * Load images inside your javaScript code.
 * Lint your code and capture errors before you build your project.
 * Compress and optimize the generated JS file.
+* Create and execute unit tests  
