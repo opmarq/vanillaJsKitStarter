@@ -1,53 +1,12 @@
+/* jshint esversion: 6 */
+
 describe("Testing the running scripts",function(){
 
-    it("sould print hello world",function(){
+    it("sould be equal to five",function(){
 
-        expect(true).toBe(false);
+        let x = 4;
 
-    });
-
-});
-describe("Testing the running scripts",function(){
-
-    it("sould print hello world",function(){
-
-        expect(true).toBe(false);
-
-    });
-
-});
-describe("Testing the running scripts",function(){
-
-    it("sould print hello world",function(){
-
-        expect(true).toBe(false);
-
-    });
-
-});
-describe("Testing the running scripts",function(){
-
-    it("sould print hello world",function(){
-
-        expect(true).toBe(false);
-
-    });
-
-});
-describe("Testing the running scripts",function(){
-
-    it("sould print hello world",function(){
-
-        expect(true).toBe(false);
-
-    });
-
-});
-describe("Testing the running scripts",function(){
-
-    it("sould print hello world",function(){
-
-        expect(true).toBe(false);
+        expect(x).toEqual(5);
 
     });
 
