@@ -4,7 +4,7 @@
   "description": "Start coding your project without wasting time on configurations",
   "main": "index.js",
   "scripts": {
-    "test": "karma",
+    "test": "karma start karma.conf.js",
     "serv": "webpack-dev-server",
     "bundle": "webpack & webpack-dev-server",
     "build": "webpack -p"
@@ -28,6 +28,7 @@
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
     "karma-webpack": "^2.0.9",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
