@@ -4,9 +4,9 @@
   "description": "Start coding your project without wasting time on configurations",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
+    "test": "karma",
     "serv": "webpack-dev-server",
-    "bundle": "webpack",
+    "bundle": "webpack & webpack-dev-server",
     "build": "webpack -p"
   },
   "keywords": [
